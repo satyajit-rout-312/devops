@@ -30,8 +30,13 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
+                 <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+            <version>2.7.4</version>
+            <configuration>
+                <mainClass>com.example.MainApplication</mainClass>  <!-- Specify your main class here -->
+            </configuration>
+        </plugin>
             </plugin>
         </plugins>
     </build>
