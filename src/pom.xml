@@ -36,7 +36,6 @@
             <configuration>
                 <mainClass>com.example.MainApplication</mainClass>  <!-- Specify your main class here -->
             </configuration>
-        </plugin>
             </plugin>
         </plugins>
     </build>
