@@ -35,8 +35,11 @@
         <plugins>
             <!-- Spring Boot Maven Plugin to package the Spring Boot app -->
             <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
+                 <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+            <configuration>
+                <mainClass>com.example.backend.BackendApplication</mainClass>
+            </configuration>
             </plugin>
         </plugins>
     </build>
